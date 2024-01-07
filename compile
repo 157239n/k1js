@@ -2,7 +2,7 @@
 
 tsc
 npx webpack
-cp dist/amd.js docs/dist/amd/latest.js
-cp dist/umd.js docs/dist/umd/latest.js
+cp dist/amd.js web/dist/amd/latest.js
+cp dist/umd.js web/dist/umd/latest.js
 npx typedoc
 

@@ -21,5 +21,11 @@ a = data.transpose().cut(1).toMax();
 
 At the moment, k1js is not available on npm. Rather, it's distributed in 2 formats: UMD and AMD. See [this folder](https://k1js.com/dist/) to see all published versions.
 
+## Links
+
+Main docs is available at [k1js.com](https://k1js.com)
+
+Repo is available at [github.com/157239n/k1js](https://github.com/157239n/k1js)
+
 
 
