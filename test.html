@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script> -->
+    </head>
+    <body>
+    <script src="http://mac.l:3000/amd.js"></script>
+    <script>
+        (async () => {
+            try {
+                console.log(require)
+                require(['k1js'], function(k1js) {
+                    console.log("in require()");
+                    (async () => {
+                        console.log(await k1js);
+                    })();
+                    // moduleA.someFunction(); // Outputs: Hello from moduleB!
+                });
+            } catch (e) {}
+        })();
+        (async () => {
+            const res = eval(await (await fetch("http://mac.l:3000/umd.js")).text());
+            const mod = await k1js
+            console.log(mod);
+        })();
+    </script>
+    </body>
+</html>

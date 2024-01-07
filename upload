@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#npm unpublish --force
+npm publish
+
+

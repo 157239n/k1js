@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# uploads to ny.l
+scp dist/amd.js ny.l:/production/mlexps/code/public/k1js/latest/amd.js
+scp dist/umd.js ny.l:/production/mlexps/code/public/k1js/latest/umd.js
+# uploads to mint-2.l
+scp dist/amd.js mint-2.l:/home/kelvin/repos/labs/mlexps/k1js/latest/amd.js
+scp dist/umd.js mint-2.l:/home/kelvin/repos/labs/mlexps/k1js/latest/umd.js
+
+
