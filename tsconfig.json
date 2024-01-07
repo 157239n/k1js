@@ -1,8 +1,10 @@
 {
 	"compilerOptions": {
+		"module": "NodeNext",
 		"outDir": "./built",
 		"allowJs": true,
-		"target": "es5"
+		"target": "es5",
+		"downlevelIteration": true
 	},
 	"include": ["./src/**/*"]
 }

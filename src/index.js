@@ -6,7 +6,7 @@ import {monkeyDummy} from "./monkey.js"
 monkeyDummy();
 
 export { utils, kws };
-export const k1js = { utils, kws, log: adv.log };
+// export const k1js = { utils, kws, log: adv.log };
 export default { utils, kws, log: adv.log };
 
 

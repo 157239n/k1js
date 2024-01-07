@@ -1,0 +1,9 @@
+{
+  "out": "web/docs/latest",
+  "entryPoints": ["src/index.js"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "includes": "src",
+  "theme": "default",
+  "name": "k1js",
+  "readme": "./readme.md" // Specify the path to your custom home page
+}

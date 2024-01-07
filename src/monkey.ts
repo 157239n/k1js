@@ -1,3 +1,25 @@
+declare global {
+  interface String {
+    capitalize(): string;
+    ljust(width:number, fillchar:string): string;
+    rjust(width:number, fillchar:string): string;
+    lstrip(charsToRemove:string): string;
+    rstrip(charsToRemove:string): string;
+    has(substr:string): boolean;
+  }
+  interface Array<T> {
+    remove(v:T): Array<T>;
+    len(): number;
+    has(elem:T): boolean;
+    shuffle(seed:string): Array<T>;
+    randomize(seed:string): Array<T>;
+    choice();
+  }
+  interface Set<T> {
+    toList(o: T[]): Array<T>;
+    includes(elem:T): boolean;
+  }
+}
 
 String.prototype.capitalize = function () {
   return this.charAt(0).toUpperCase() + this.slice(1);
